@@ -1,1 +1,59 @@
+Day 5.
+
+HTML Css, Javascropt Intro(what I have understand while reading):
+
+Html, Css, and Javascript are the basic languages that worked together to create eveything we see when we look at somethings
+on the internet.
+
+HTML stand for hyper text markup language, a very simple but yet powerful markup language.
+
+Html put information, content and layout on a webpage, Css is used to give the style, looks and feel, javascript is
+used to make the website interactive.
+
+It determines how document and web pages are display(control the layout of the content and provide struture for the web design). Which makes it the building block of any website.
+
+With a basic understanding of HTML, you can significantly increase the control and flexibility that you have with your website.
+with that been said, you can now used other programming languages to further enhance your website design(PHP, Javascript
+,Ruby, Python, SQL,etc.)
+
+Html in detailes(what I have understand while reading):
+
+Tags:
+
+I learned opening tags tell the browser where html elements starts and closing tags does the opposite(where it ends.)
+Tags comprised of keyword enclosed in angle brackets-<></>.
+It also tells the browser what content the element contains.
+Using the correct tags help search engines and make them accessible to user who rely on screen readers, to use the internet.
+
+Common problems with html Boilerplate :
+
+<!---- !DOCTYPE html issue ---->
+Not declaring the "!DOCTYPE html" at the top of your document will cause the browser to switch to quirks mode,
+when rendering a document. It will also cause some specifications to be incompatible.
+
+<---- Index.html issue ---->
+Not having a index.html as your hompage in your document, will also caused problem.
+That is because, by default web servers look for an index.html page when user land on our websites.
+it is advisable to always name our hompage index.html.
+
+<---- html lang issue---->
+Not having a lang attribute will caused accessibility problem.
+It help specify the language of text content used in the document and allows assistive technologies, 
+like screen readers,to adapt according to the language and invoke correct pronunciation.
+
+Html heading:
+
+h1 should always be used for the heading of the overall page, and the lower level(h2-h6) should be used as heading for content
+in smaller sections.
+
+html Lists:
+
+Unordered list is used to create a list of items where order doesn't matter.
+Ordered list is used to create a lidt og items where order have to be taking into consideration.
+
+html links:
+
+Browsers assume relative links contain the domain name of our site, since it is another page on the same site.
+
+
 
