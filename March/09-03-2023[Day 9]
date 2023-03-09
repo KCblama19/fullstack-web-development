@@ -1,2 +1,10 @@
-DAY.
+DAY 9.
+
+Css(what I have understand while reading)
+
+Css simply means Cascading style sheet.
+
+it is used to add styles to the structure of an html document.
+
+Css is usually made up of rules and thesse rules are made up of a selectou and a semi-colon that separate a list of declarations, each declaration consist of a property and a value pair.
 
