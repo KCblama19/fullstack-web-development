@@ -6,5 +6,82 @@ Css simply means Cascading style sheet.
 
 it is used to add styles to the structure of an html document.
 
-Css is usually made up of rules and thesse rules are made up of a selectou and a semi-colon that separate a list of declarations, each declaration consist of a property and a value pair.
+Css is usually made up of rules and these rules are made up of a selector
+and a semi-colon that separate a list of declarations. 
+Each declaration consist of a property and a value pair.
 
+Selector refers to the html element to which the css rules apply.
+there are several selectors that can be used to select elements.
+which include but not limited to:
+
+-Universal Selector: it is used to select elements of any type and applied to it.
+It is declared using the asterisk.
+
+-Type selector: it is used to select all elements of a given element.
+It is declared using the name of the element.
+
+-Class selector: it is used to select all elements with the given class. 
+It is declared with the ".classname".
+the same class can be used on as many element as possible.
+It can be used along with the class attribute in an html document.
+it is case sensitive.
+
+-ID selector: similar to id selector, they select element with the given id,
+and can be used along with the id attribute in an html document.
+It is declared using the #"idname".
+An Id selector should not be used when not necessary(use it sparingly).
+It should rather be used to take advantage of specificity.
+
+*Differences between IDs and Classes - an element should only have one ID
+while classes can have multiple classes.
+IDs shouldn't be repeated on a single page while classes can be repeated many times
+base on your need.
+IDs attribute shouldn't contain any whitespace.
+
+-Grouping selector: it is used to group two or more elements that share common style
+ declarations
+It helps to reduce the repetition of declarations and make editing of classes and IDs
+easier.
+
+-Chaining selector: is used to chain selectors as a list without any separation.
+
+-Css combinator: is used to combine multiple selectors differently than either grouping
+or changing them.
+it also show relationshp selectors.
+
+Css cascade: is used to determine which rules actually get applied to our html.
+There are various factors that cascade used to determine which style get applied 
+to an element with similar property but different values.
+
+#1 Specificity: a rule of specificity states that, the more specific declaration will take
+precedence over less specific ones.
+Specificity will only be applied when an element has multiple, conflicting declarations
+targeting it.
+
+#2 Inheritance: refers to Css properties(usually typography based properties) that,
+when applied to an element, are inherited by that element's decendants.
+
+#3 Rule Order: like the name defined, whichever rule was the last defined is the
+winner, it is usually the last factor that cascade used to determinee which rule 
+should apply.
+
+Box-Model: it consist of content box, padding bpx, margin box, and border box.
+it is core to understand the box model inroder to layout/position
+elements on the webpage.
+
+-Content box it is the area where your content is displayed.
+
+-Padding add spaces between the border of a box and the content of the box.
+-Margin increases the space between the border of a box and the borders of adjacent 
+boxes.
+-Border add space between the margin and the padding.
+
+Block and inline elements: 
+ -Block level elements take the full width of it parent container and doesn't allow
+ other element to stick beside it, it usually stacked atop each other.
+ 
+ Inline elements take the required width of it content, it also allow other elements
+ to stick beside it.
+ 
+Flexbox: it allows you to arrange items into rows or columns.
+it is simply a toolbox of properties that you use to put things where it is needed.
