@@ -85,3 +85,12 @@ Block and inline elements:
  
 Flexbox: it allows you to arrange items into rows or columns.
 it is simply a toolbox of properties that you use to put things where it is needed.
+it can be declared by using the display: flex property and value.
+
+some of the tools or properties used in flexbox (but not limited to) are as follow:
+
+-flex-grow: it expects a single number as it value. when applied,
+by default it apply 1unit to every div inside our container, telling them to grow
+the same amount.
+it can be declared by using the flex-grow property and a value in unit. ie:1;
+-flex-shrink: similar to flex growth
