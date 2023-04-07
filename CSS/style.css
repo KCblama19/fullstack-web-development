@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#content_box {
+    border: 2px solid #ddd;
+    padding: 3rem 2rem 1rem 2rem;
+    max-width: 400px;
+}
+
+#content_box > img{
+    width: 200px;
+    margin-bottom: 2rem;
+    /* border: 2px solid; */
+}
+
+.line::before {
+    content: "";
+    width: 40%;
+    border: 1px solid #ddd;
+    float: left;
+    margin-top:10px ;
+}
+.line::after {
+    content: "";
+    width: 40%;
+    border: 1px solid #ddd;
+    float: right;
+    margin-top:10px ;
+}
+
+button > a{
+    text-decoration: none;
+    color: #fff;
+}
+.login > a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgba(33, 67, 147, 0.896);
+}
+ .forget_pwd{
+    text-decoration: none;
+    color: rgba(33, 67, 147, 0.896);
+}
+
+#signup {
+    max-width: 400px;
+    border: 2px solid #ddd;
+    margin: 0 auto;
+}
+
+#signup > .account >a {
+    text-decoration: none;
+    color:#00B2FF;
+    font-weight: bold;
+    
+}
+
+/* .text-center {
+    border: 4px solid green;
+    max-width: 400px;
+    margin: 0 auto;
+} */
+
+#getapk {
+    max-width: 400px;
+    /* border: 4px solid black; */
+    margin: 0 auto;
+}
+
+#getapk .img-apk img {
+    /* border: 2px solid green; */
+    width: 105px;
+}
+
+#getapk .img-apk .Playstore-img {
+    width: 125px
+}
+
+footer {
+    margin: 0 auto;
+    max-width: 400px;
+    text-align: center;
+}
+
+footer select {
+    border: none;
+    font-size: 14px;
+}
+
+
